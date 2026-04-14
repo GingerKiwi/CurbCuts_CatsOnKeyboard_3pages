@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Podcast | Curb Cuts and Conversations</title>
-    <meta name="description" content="Four podcast series from Curb Cuts and Conversations Media — accessibility, urbanism, adaptive fashion, social media accessibility, and web accessibility.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Poppins:wght@400;600;700&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/css-reset.css">
     <link rel="stylesheet" href="styles/variables.css">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
+<body class="page-layout">
     <a href="#main-content" class="skip-nav">Skip to main content</a>
 
-    <header class="site-header">
-        <a href="/" class="site-header__logo">Curb Cuts and Conversations</a>
+    <header class="header">
+        <div class="header__logo-text">Curb Cuts and Conversations</div>
 
         <button
             id="mobile-nav-trigger"
@@ -62,93 +61,72 @@
         </nav>
     </div>
 
-    <main id="main-content">
+    <main class="main-content" id="main-content">
         <section class="hero">
-            <p class="hero__eyebrow">Curb Cuts and Conversations Media</p>
-            <h1>Podcast</h1>
-            <p class="hero__tagline">Four series, one throughline: accessibility — in cities, in fashion, in digital spaces, and on the web.</p>
+            <h1 class="hero__title">Podcast</h1>
         </section>
 
-        <!-- FLAGSHIP -->
-        <section>
-            <h2>Curb Cuts and Conversations</h2>
-            <p class="hero__eyebrow" style="margin-bottom:1rem;">Flagship · Ongoing</p>
-            <p>A Canadian podcast about accessibility, urbanism, and transportation — how cities around the world are designed, and who gets left out when we get it wrong.</p>
-            <p>Each episode is a conversation with urban planners, researchers, disability advocates, transit experts, and people with lived experience of inaccessible cities. Host Elizabeth (Liz) McCready brings her own experience as a wheelchair user in Toronto to every conversation.</p>
-            <p>Like "curb cuts" — the small sloped transitions from sidewalk to street, designed for wheelchair users that turned out to benefit everyone — the solutions to inaccessibility are rarely just for one group. That's the curb cut effect.</p>
-
-            <div class="brand-links" style="margin-top:1.5rem;">
-                <a href="https://rss.com/podcasts/curbcuts/" class="brand-link" rel="external">
-                    <img src="icons/icon--microphone-01.svg" alt="" class="brand-link__icon" aria-hidden="true">
-                    <span>Listen to the Podcast</span>
-                </a>
+        <section class="navigation-area">
+            <div class="cta-stack">
                 <a href="https://www.youtube.com/@GingerKiwiOnWheels/podcasts" class="brand-link" rel="external">
-                    <img src="icons/icon--youtube.svg" alt="" class="brand-link__icon" aria-hidden="true">
+                    <img src="icons/icon--youtube.svg" alt="" class="brand-link__icon" aria-hidden="true" width="48" height="48">
                     <span>Watch on YouTube</span>
                 </a>
+                <a href="https://rss.com/podcasts/curbcuts/" class="brand-link" rel="external">
+                    <img src="icons/icon--microphone-01.svg" alt="" class="brand-link__icon" aria-hidden="true" width="48" height="48">
+                    <span>Listen to the Podcast</span>
+                </a>
             </div>
-        </section>
 
-        <hr class="divider">
+            <section>
+                <h2>Curb Cuts and Conversations</h2>
+                <p class="podcast-tag">Flagship · Ongoing</p>
+                <p>A Canadian podcast about accessibility, urbanism, and transportation — how cities around the world are designed, and who gets left out when we get it wrong.</p>
+            </section>
 
-        <!-- ALL SERIES -->
-        <section>
-            <h2>All Series</h2>
+            <hr class="navigation-divider">
 
-            <div class="podcast-list">
+            <section>
+                <h2>All Series</h2>
 
-                <article class="podcast-card">
-                    <p class="podcast-card__eyebrow">Series · 6 Episodes</p>
-                    <h3 class="podcast-card__title">Adaptively Dressed: The Adaptive Fashion Podcast</h3>
-                    <p>Clothing designed with and for disabled, Deaf, neurodivergent, chronically ill people, and seniors. Conversations with those making, designing, promoting, and wearing adaptive fashion.</p>
-                    <p>A visual and tactile series — every episode includes intentional clothing descriptions for blind and low vision listeners. Each episode opens with Liz describing herself, then she invites guests to describe themselves and what they're wearing.</p>
-                    <p>The default booking is 120 minutes, with approximately 75–90 minutes of recording per episode. <a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
-                </article>
+                <h3>Adaptively Dressed: The Adaptive Fashion Podcast</h3>
+                <p class="podcast-tag">Series · 6 Episodes</p>
+                <p>Clothing designed with and for disabled, Deaf, neurodivergent, chronically ill people, and seniors. Conversations with those making, designing, promoting, and wearing adaptive fashion.</p>
+                <p>A visual and tactile series — every episode includes intentional clothing descriptions for blind and low vision listeners.</p>
+                <p><a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
 
-                <article class="podcast-card">
-                    <p class="podcast-card__eyebrow">Series · 6 Episodes</p>
-                    <h3 class="podcast-card__title">Accessibility Across the Algorithm</h3>
-                    <p>Social media and digital marketing accessibility — for creators, marketers, and the audiences currently left out of the conversation. The series highlights people working to make social media accessible, and gives practical guidance on how to make your own content accessible.</p>
-                    <p>Episodes are 60 minutes booked, approximately 35–45 minutes of recording. <a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
-                </article>
+                <h3>Accessibility Across the Algorithm</h3>
+                <p class="podcast-tag">Series · 6 Episodes</p>
+                <p>Social media and digital marketing accessibility — for creators, marketers, and the audiences currently left out of the conversation.</p>
+                <p><a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
 
-                <article class="podcast-card">
-                    <p class="podcast-card__eyebrow">Series · Ongoing</p>
-                    <h3 class="podcast-card__title">Web Accessibility Wednesdays</h3>
-                    <p>10 questions in 10(ish) minutes. Short, conversational, and predictable — every guest is asked the same 10 questions. Highlighting digital accessibility professionals and their work.</p>
-                    <p>30 minutes booked, approximately 10–15 minutes of recording. The question list is sent in advance — no surprises. <a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
-                </article>
+                <h3>Web Accessibility Wednesdays</h3>
+                <p class="podcast-tag">Series · Ongoing</p>
+                <p>10 questions in 10(ish) minutes. Short, conversational, and predictable — every guest is asked the same 10 questions. Highlighting digital accessibility professionals and their work.</p>
+                <p><a href="mailto:liz@curbcuts.fm">Pitch yourself as a guest: liz@curbcuts.fm</a></p>
+            </section>
 
-            </div>
-        </section>
+            <hr class="navigation-divider">
 
-        <hr class="divider">
-
-        <section>
-            <h2>Listen and Follow</h2>
-            <ul class="link-list">
-                <li><a href="https://rss.com/podcasts/curbcuts/" rel="external">Apple Podcasts</a></li>
-                <li><a href="https://rss.com/podcasts/curbcuts/" rel="external">Spotify</a></li>
-                <li><a href="https://rss.com/podcasts/curbcuts/" rel="external">RSS Feed</a></li>
-                <li><a href="https://www.youtube.com/@GingerKiwiOnWheels" rel="external">YouTube</a></li>
-                <li><a href="https://www.instagram.com/gingerkiwionwheels/" rel="external">Instagram</a></li>
-            </ul>
+            <nav class="secondary-links" aria-label="Social and follow">
+                <a href="https://www.instagram.com/gingerkiwionwheels/" class="social-link" rel="external">
+                    <img src="icons/icon--instagram.svg" alt="" class="social-link__icon" aria-hidden="true" width="44" height="44">
+                    <span>Instagram</span>
+                </a>
+                <a href="https://www.linkedin.com/in/elizabethmccready/" class="social-link" rel="external">
+                    <img src="icons/icon--linkedin.svg" alt="" class="social-link__icon" aria-hidden="true" width="44" height="44">
+                    <span>My LinkedIn</span>
+                </a>
+                <a href="https://shop.curbcuts.fm" class="social-link" rel="external">
+                    <img src="icons/icon--shop.svg" alt="" class="social-link__icon" aria-hidden="true" width="44" height="44">
+                    <span>Shop Merch</span>
+                </a>
+            </nav>
         </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="site-footer__inner">
-            <nav aria-label="Footer navigation">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="podcast.html">Podcast</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="https://shop.curbcuts.fm" rel="external">Shop</a></li>
-                </ul>
-            </nav>
-            <p class="site-footer__copyright">© 2026 Elizabeth M<sup>c</sup>Cready | Curb Cuts and Conversations Media</p>
-        </div>
+    <footer class="footer">
+        <p>© 2026 Elizabeth M<sup>c</sup>Cready | Curb Cuts and Conversations Media</p>
     </footer>
-
 </body>
 </html>
