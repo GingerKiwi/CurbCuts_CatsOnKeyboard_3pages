@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curb Cuts and Conversations | Cats Sitting on Keyboard!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Poppins:wght@400;600;700&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/css-reset.css">
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-nav">Skip to main content</a>
+
+    <header class="site-header">
+        <a href="/" class="site-header__logo">Curb Cuts and Conversations</a>
+
+        <button
+            id="mobile-nav-trigger"
+            popovertarget="mobile-nav"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+        >
+            <svg aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+            Menu
+        </button>
+
+        <nav id="desktop-nav" aria-label="Primary navigation">
+            <ul>
+                <li><a href="/" aria-current="page">Home</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="https://shop.curbcuts.fm" rel="external">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="mobile-nav" popover>
+        <button
+            id="mobile-nav-close"
+            popovertarget="mobile-nav"
+            popovertargetaction="hide"
+            aria-label="Close menu"
+        >&#x2715;</button>
+        <nav>
+            <ul>
+                <li><a href="/" aria-current="page">Home</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="https://shop.curbcuts.fm" rel="external">Shop</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main id="main-content">
+        <section class="hero">
+            <h1 class="hero__title">Opps - The Cats "Helped" Code the New Website</h1>
+            <p>
+                The show cat co-hosts, Maybel and Boo, decided the keyboard was a heated bed and sat on the 'Redirect' button. While I negotiate for our workspace back, please use the links below to find the show.
+            </p>
+        </section>
+
+        <section class="navigation-area">
+            <div class="cta-stack">
+                <a href="https://www.youtube.com/@GingerKiwiOnWheels/podcasts" class="brand-link">
+                    <img src="icons/icon--youtube.svg" alt="" class="brand-link__icon" aria-hidden="true">
+                    <span>Watch on YouTube</span>
+                </a>
+
+                <a href="https://rss.com/podcasts/curbcuts/" class="brand-link">
+                    <img src="icons/icon--microphone-01.svg" alt="" class="brand-link__icon" aria-hidden="true">
+                    <span>Listen to the Podcast</span>
+                </a>
+
+                <a href="https://Events.CurbCuts.fm" class="brand-link">
+                    <img src="icons/icon--was-wheelchair.svg" alt="" class="brand-link__icon" aria-hidden="true">
+                    <span>Wheelie Awesome Socials on Eventbrite</span>
+                </a>
+            </div>
+
+            <section class="wheelie-awesome-info">
+                <h2>What is Wheelie Awesome Socials?</h2>
+                <p>Wheelie Awesome Socials is a Toronto community for wheelchair users — and most events welcome rollator and scooter users too. Events include:</p>
+                <ul>
+                    <li>pub nights,</li>
+                    <li>museum visits,</li>
+                    <li>crafting workshops</li>
+                    <li>picnics</li>
+                    <li>local excursions</li>
+                </ul>
+                <p>Memberships are coming soon, with perks including member-only events, merch discounts, and an online community. Our first events are live — grab your tickets on Eventbrite above!</p>
+            </section>
+
+            <hr class="navigation-divider">
+
+            <nav class="secondary-links" aria-label="Social and Shop">
+                <a href="https://www.instagram.com/gingerkiwionwheels/" class="social-link">
+                    <img src="icons/icon--instagram.svg" alt="" class="social-link__icon" aria-hidden="true">
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/elizabethmccready/" class="social-link">
+                    <img src="icons/icon--linkedin.svg" alt="" class="social-link__icon" aria-hidden="true">
+                    <span>My LinkedIn</span>
+                </a>
+
+                <a href="https://shop.curbcuts.fm" class="social-link">
+                    <img src="icons/icon--shop.svg" alt="" class="social-link__icon" aria-hidden="true">
+                    <span>Shop Merch</span>
+                </a>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="podcast.html">Podcast</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="https://shop.curbcuts.fm" rel="external">Shop</a></li>
+                </ul>
+            </nav>
+            <p class="site-footer__copyright">© 2026 Elizabeth M<sup>c</sup>Cready | Curb Cuts and Conversations Media</p>
+        </div>
+    </footer>
+
+</body>
+</html>

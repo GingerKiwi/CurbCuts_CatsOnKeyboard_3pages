@@ -1,0 +1,48 @@
+:root {
+   /* ==========================================================================
+      BRAND COLORS (Consolidated from Brand Kit & elizabethmccready.com Site)
+      ========================================================================== */
+   
+    /* PRIMARY PURPLE SERIES */
+    --brand-tilite-purple: #9a4bb8;        /* Main Brand Color */
+    --brand-tilite-purple-dark: #2e1737;   /* Secondary / Hover */
+    --brand-tilite-purple-bg: #1f0f25;     /* Dark BG (instead of black-almost) */
+
+    /* ACCENT COLORS */
+    --brand-green: #a9c661;               /* High-Contrast / A11y Ring */
+    --brand-green-light: #cff2a8;         /* Subtle accents */
+    --brand-blue: #88edfd;                /* Social / UI accents */
+    --brand-blue-dark: #0b3350;
+    --brand-blue-accent: #365165;
+    --brand-pink: #ffb2bb;                /* Merch / Social accent */
+
+    /* NEUTRALS */
+    --brand-white-almost: #fffafa;
+    --brand-black-almost: #080409;
+    --brand-black-true: #000000;
+
+    /* ==========================================================================
+       TYPOGRAPHY (Includes Pro Site updates: Merchant & London)
+       ========================================================================== */
+
+    /* Headings & Display */
+    --brand-font-heading: 'Fedaro', serif;
+    --brand-font-social-heading: 'Poppins', sans-serif;
+    --brand-font-merchant: 'Merchant', sans-serif; /* Added from elizabethmccready.com */
+    --brand-font-london: 'London', serif;         /* Added from elizabethmccready.com */
+
+    /* Body & Utility */
+    --brand-font-body: 'Work Sans', sans-serif;
+    --brand-font-cats: 'Marykate', cursive;
+
+    /* Merch Specific */
+    --brand-font-merch-logo: 'Alice', serif;
+    --brand-font-merch-series: 'Kirang Haerang', sans-serif;
+
+    /* ==========================================================================
+       LAYOUT & GRID (Synced with page-layout logic)
+       ========================================================================== */
+    
+    --main-column: minmax(0, 65ch);
+    --gutter: 1.5rem;
+}
