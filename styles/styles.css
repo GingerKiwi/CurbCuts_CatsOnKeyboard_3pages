@@ -76,7 +76,7 @@ a:active {
 .skip-nav {
     display: block;
     background-color: var(--brand-tilite-purple);
-    border-bottom: 2px solid var(--brand-white-almost);
+    /* border-bottom: 2px solid var(--brand-white-almost); */
     color: var(--brand-white-almost);
     font-family: var(--brand-font-social-heading);
     font-size: 0.95rem;
@@ -278,6 +278,15 @@ a:active {
     margin-bottom: 0;
     max-width: 55ch;
 }
+
+.p__cats-on-keyboard {
+    font-size: larger;
+}
+
+.icon__pawprints {
+    transform: rotate(90deg);
+}
+
 
 /* ==========================================================================
    BRAND LINKS (icon + label)
